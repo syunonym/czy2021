@@ -1,0 +1,7 @@
+@font-face
+{
+    font-family: Silkscreen;
+    src: url('../fonts/slkscr.ttf');
+    font-smooth: never;
+    -webkit-font-smoothing : none;
+}

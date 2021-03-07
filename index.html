@@ -1,0 +1,55 @@
+<html>
+<head>
+    <title>CHUANG 2021 Team Creator</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <script src="./src/js/html2canvas.min.js"></script>
+    <script src="./src/js/p5.min.js"></script></head>
+
+<body>
+    <div id="bottom"></div>
+    <div id="container">
+
+        <div id="main">
+
+            <div id="tvBox">
+                <div id="grid"></div>
+                <div id="tvScreen"></div>
+                <div id="overlay">
+                    <img src="src/img/logo.png" alt="CHUANG 2021 logo" width="100" height="100">
+                    <div id="slogan">
+                        <p id="ready">Are you ready?</p>
+                        <p id="togather">Chuang To-Gather, Go!</p>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div id="selector">
+                <div id="selectorHeader">
+                    <div id="saveOptions">
+                        <a id="saveLink"><img src="./src/img/save_idle.png" id="saveButton" alt="create a screenshot" title="Save a screenshot of your party"></a>
+                        <img src="./src/img/clear_idle.png" id="clearAll" alt="clear all options" title="Clear everything">
+                    </div>
+                    <h2>Character Select</h2>
+                    <div id="searchContainer">
+                        <strong>filter:</strong><input type="text"" name=" search" id="searchBox" alt="search box">
+                        <input type="checkbox" name="name" id="nameFilter"> <strong>name</strong>
+                        <input type="checkbox" name="company" id="companyFilter"> <strong>company</strong>
+                    </div>
+                </div>
+                <div id="selectorContainer">
+                    <div id="chosenBox"></div>
+                    <div id="selectorBox"></div>
+                </div>
+                
+            </div>
+        </div>
+        <footer id="footer">
+        </footer>
+    </div>
+
+    <script src="./src/js/main.js"></script>
+    <script src="./src/js/selector.js"></script>
+    <script src="./src/js/buttons.js"></script>
+</body>
+</html>
